@@ -26,5 +26,4 @@ const authenticate = async (req, res, next) => {
     next(HttpError(401));
   }
 };
-
 module.exports = authenticate;

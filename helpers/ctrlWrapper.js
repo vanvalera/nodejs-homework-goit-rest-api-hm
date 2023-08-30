@@ -5,8 +5,8 @@ const ctrlWrapper = (ctrl) => {
     } catch (e) {
       next(e);
     }
+    return func;
   };
-  return func;
 };
 
 module.exports = ctrlWrapper;
